@@ -24,7 +24,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
         adaptiveHeight: true,
-        asNavFor: '.to-navegator',
+        asNavFor: '.to-navigator',
         fade: true
     });
 
@@ -32,7 +32,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        asNavFor: '.to-navegator',
+        asNavFor: '.to-navigator',
         adaptiveHeight: true
     });
     $('.youtube-slider').slick({
@@ -40,16 +40,16 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
         adaptiveHeight: true,
-        asNavFor: '.to-navegator',
+        asNavFor: '.to-navigator',
         fade: true
     });
 
-    $('.navegator').slick({
+    $('.navigator').slick({
         slidesToShow: 4,
         arrows: false,
         adaptiveHeight: true,
         focusOnSelect: true,
-        asNavFor: '.to-navegator',
+        asNavFor: '.to-navigator',
         vertical: true
     });
 });
